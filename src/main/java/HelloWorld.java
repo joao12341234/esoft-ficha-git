@@ -8,7 +8,7 @@ public class HelloWorld extends JFrame {
 
     public HelloWorld() {
         panel1 = new JPanel(new GridLayout(2, 4));
-        lblHelloWorld = new JLabel("Hello World");
+        lblHelloWorld = new JLabel("O Luis esteve aqui");
 
         panel1.add(lblHelloWorld);
         setContentPane(panel1);
